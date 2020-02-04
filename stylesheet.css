@@ -3,3 +3,39 @@
   color: white;
   font-size: 30ox;
 }
+.container {
+  width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.row {
+  /* row-gap: 10px;
+  column-gap: 3px; */
+  display: grid;
+  grid-gap: 10px 10%;
+  margin-top: 5px;
+  border: 2px solid purple;
+  border-radius: 10px;
+}
+.col-md-2 {
+  text-align: center;
+  padding: 10px;
+}
+.col-md-8 {
+  /* border: 2px solid purple; */
+  padding: 10px;
+}
+.fas fa-download {
+  color: rgb(121, 112, 112);
+}
+.planButton {
+  background-color: rgb(189, 238, 210);
+  cursor: pointer;
+}
+.planButton:hover {
+  background-color: rgb(245, 192, 201);
+}
+.planButton:visited {
+  background-color: rgb(245, 192, 201);
+}
